@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Página con Franjas Horizontales</title>
+<style>
+  .fila {
+    height: 25%; /* Cada fila ocupa el 25% de la altura de la pantalla */
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+  }
+  .banner {
+    background-image: url('ruta-al-banner.png'); /* Reemplaza con la ruta al archivo PNG del banner */
+    background-size: cover;
+    background-position: center;
+  }
+  .logo {
+    background-image: url('ruta-al-logo.png'); /* Reemplaza con la ruta al archivo PNG del logo */
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .texto {
+    font-size: 2em; /* Tamaño del texto */
+  }
+</style>
+</head>
+<body>
+
+<div class="fila banner">
+  <!-- La imagen del banner se agrega a través de CSS -->
+</div>
+
+<div class="fila logo">
+  <!-- La imagen del logo se agrega a través de CSS -->
+</div>
+
+<div class="fila texto">
+  hola mundo
+</div>
+
+<div class="fila">
+  <!-- Esta fila está vacía, pero puedes agregar más contenido aquí si lo deseas -->
+</div>
+
+</body>
+</html>
